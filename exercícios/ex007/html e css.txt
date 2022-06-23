@@ -1,0 +1,7 @@
+HTML é focado em semântica (tags com significado)
+
+CSS é focado em forma (fonte, cor da fonte, cor de fundo)
+
+https://youtu.be/HaSgt1hK2Fs?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&t=452
+
+HTML5 = HTML Semântico

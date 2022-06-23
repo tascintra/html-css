@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'heartland';
+            src: url('fonts/HEARRG__.TTF') format('truetype'); /* Podem ser utilizados mais de um arquivo se a fonte possui um otf e um ttf, só adicionar mais atributos url e format na declaração separando por vírgula (,) */
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+                Tipos de format ()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'heartland', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odio ipsum fugit harum provident aliquid iusto temporibus aperiam quas numquam repellat sunt culpa unde, eveniet sed. Omnis quae minima optio.</p>
+</body>
+</html>
