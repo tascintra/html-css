@@ -1,5 +1,4 @@
 # html-css
- Curso de HTML5 e CSS3 do CursoemVideo
+ Aprendendo HTML5 e CSS3 pelo CursoemVideo
 
- Estou aprendendo a criar páginas e agora vou gerenciar meus repositórios!
-
+Desenvolvedor Front-End em formação.
