@@ -17,7 +17,6 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font: var(--font-aut);
 }
 
 header {
@@ -30,6 +29,7 @@ header > h1 {
     padding: 50px 0px 0px 0px;
     font-variant: small-caps;
     font-family: var(--font-emp);
+    font-size: 10vw;
 }
 
 header > p {
@@ -50,6 +50,12 @@ header a:hover, footer a:hover {
 section {
     padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
+    font-family: var(--font-std);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding: 0px 0px 2em 0px;
 }
 
 section.whitewall {
@@ -60,16 +66,31 @@ section.whitewall {
 section.image {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.image > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    background-color: hsla(0, 0%, 0%, 0.507);
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#livro {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--font-aut);
     padding: 10px;
 }
